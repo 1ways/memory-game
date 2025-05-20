@@ -51,6 +51,7 @@ body {
     cursor: pointer;
     transition: all .1s linear;
     min-height: 126px;
+    background-color: #fff;
 }
 
 .card.guessed {
@@ -62,8 +63,8 @@ body {
     background-color: #646464;
 }
 
-.card:hover,
-.card:focus {
+.card.closed:hover,
+.card.closed:focus {
     opacity: 0.8;
 }
 
